@@ -1,0 +1,126 @@
+ERROR - 2023-05-27 12:43:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'admin', 'isw', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', Array, NULL, 'matricula')
+#6 C:\laragon\www\itson\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', Array, Array)
+#7 C:\laragon\www\itson\app\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', Array, NULL, 'matricula')
+#5 C:\laragon\www\itson\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', Array, Array)
+#6 C:\laragon\www\itson\app\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-27 12:43:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuario`
+WHERE `matricula` = :matricula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', [...], null, 'matricula')
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', [...], [...])
+ 6 APPPATH\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 12:44:14 --> Too few arguments to function App\Controllers\Usuario::perfil(), 0 passed in C:\laragon\www\itson\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Usuario.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuario->perfil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-27 12:59:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'admin', 'isw', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', Array, NULL, 'matricula')
+#6 C:\laragon\www\itson\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', Array, Array)
+#7 C:\laragon\www\itson\app\Controllers\Home.php(40): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', Array, NULL, 'matricula')
+#5 C:\laragon\www\itson\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', Array, Array)
+#6 C:\laragon\www\itson\app\Controllers\Home.php(40): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-27 12:59:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuario`
+WHERE `matricula` = :matricula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000229115', 'matricula', [...], null, 'matricula')
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000229115', [...], [...])
+ 6 APPPATH\Controllers\Home.php(40): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:01:19 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 30.
+ 1 APPPATH\Controllers\Capacitacion.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:04:42 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 30.
+ 1 APPPATH\Controllers\Capacitacion.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:06:16 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 31.
+ 1 APPPATH\Controllers\Capacitacion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:07:30 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 31.
+ 1 APPPATH\Controllers\Capacitacion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

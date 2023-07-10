@@ -1,0 +1,143 @@
+ERROR - 2023-05-31 13:07:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'admin', 'isw', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\itson\app\Models\CapacitacionModel.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\itson\app\Controllers\Capacitacion.php(123): App\Models\CapacitacionModel->findCapacitacionesById('1')
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->capacitaciones('1')
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\itson\app\Models\CapacitacionModel.php(30): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\itson\app\Controllers\Capacitacion.php(123): App\Models\CapacitacionModel->findCapacitacionesById('1')
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->capacitaciones('1')
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 13:07:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `capacitacion`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CapacitacionModel.php(30): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Capacitacion.php(123): App\Models\CapacitacionModel->findCapacitacionesById('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->capacitaciones('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 13:08:03 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 30.
+ 1 APPPATH\Controllers\Capacitacion.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 13:09:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'admin', 'isw', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\itson\app\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\itson\app\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#8 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 13:09:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `capacitacion`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 13:09:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'admin', 'isw', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\itson\app\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\itson\app\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+#7 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#8 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 13:09:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `capacitacion`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Capacitacion.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 13:14:10 --> Undefined property: App\Controllers\Capacitacion::$CicloModel
+in APPPATH\Controllers\Capacitacion.php on line 30.
+ 1 APPPATH\Controllers\Capacitacion.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Capacitacion::$CicloModel', 'APPPATH\\Controllers\\Capacitacion.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

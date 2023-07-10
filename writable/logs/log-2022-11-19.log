@@ -1,0 +1,602 @@
+CRITICAL - 2022-11-19 13:33:56 --> syntax error, unexpected ':'
+in APPPATH\Config\Routes.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:34:11 --> syntax error, unexpected ':'
+in APPPATH\Config\Routes.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:34:22 --> syntax error, unexpected ':'
+in APPPATH\Config\Routes.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:34:23 --> syntax error, unexpected ':'
+in APPPATH\Config\Routes.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:46:56 --> Invalid file: Capacitaciones/capacitaciones.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Capacitaciones/capacitaciones.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Capacitaciones/capacitaciones', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(9): view('Capacitaciones/capacitaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:47:12 --> Invalid file: capacitaciones.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('capacitaciones.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('capacitaciones', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(9): view('capacitaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 13:47:13 --> Invalid file: capacitaciones.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('capacitaciones.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('capacitaciones', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(9): view('capacitaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:00:53 --> Invalid file: /Capacitacion/form_capacitaciones.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Capacitacion/form_capacitaciones.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitaciones', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(13): view('/Capacitacion/form_capacitaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->form()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:02:15 --> Invalid file: /Capacitacion/form_capacitacionss.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Capacitacion/form_capacitacionss.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacionss', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(13): view('/Capacitacion/form_capacitacionss')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->form()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:20:09 --> Cannot redeclare App\Controllers\Capacitacion::index()
+in APPPATH\Controllers\Capacitacion.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 14:20:22 --> Cannot redeclare App\Controllers\Capacitacion::index()
+in APPPATH\Controllers\Capacitacion.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 14:20:26 --> Cannot redeclare App\Controllers\Capacitacion::index()
+in APPPATH\Controllers\Capacitacion.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 14:20:46 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:21:14 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:21:16 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:21:17 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:23:12 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:23:14 --> Undefined property: App\Controllers\Capacitacion::$CapacitacionModel
+in APPPATH\Controllers\Capacitacion.php on line 9.
+ 1 APPPATH\Controllers\Capacitacion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$CapacitacionModel', 'APPPATH\\Controllers\\Capacitacion.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-19 14:24:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', '', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\itson\app\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#5 C:\laragon\www\itson\app\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+#6 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+#7 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#8 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-19 14:24:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `capacitacion`
+WHERE `capacitacion`.`id` = :capacitacion.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-19 14:25:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'mydb', 3306, '', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\itson\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\itson\app\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+#8 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#9 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\itson\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\itson\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\itson\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#5 C:\laragon\www\itson\app\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+#6 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+#7 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#8 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-19 14:25:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `capacitacion`
+WHERE `capacitacion`.`id` = :capacitacion.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Controllers\Capacitacion.php(16): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:31:43 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:23 --> Undefined variable: Capacitaciones
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Capacitaciones', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:28 --> Undefined variable: Capacitaciones
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Capacitaciones', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:30 --> Undefined variable: Capacitaciones
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Capacitaciones', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:43 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:45 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 14:34:46 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:14:24 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:20:09 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:20:12 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:20:14 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:20:17 --> Too few arguments to function App\Controllers\Capacitacion::index(), 0 passed in C:\laragon\www\itson\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Capacitacion.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:20:30 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Capacitacion\capacitaciones.php on line 64.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Capacitacion\\capacitaciones.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 15:44:41 --> Undefined property: App\Controllers\Capacitacion::$productoModel
+in APPPATH\Controllers\Capacitacion.php on line 47.
+ 1 APPPATH\Controllers\Capacitacion.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Capacitacion::$productoModel', 'APPPATH\\Controllers\\Capacitacion.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-19 15:45:11 --> mysqli_sql_exception: Column 'institucion' cannot be null in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\itson\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\itson\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\itson\app\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-19 15:45:11 --> Column 'institucion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-11-18\', NULL, \'virtual\', \'3\', NULL, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-11-18\', NULL, \'virtual\', \'3\', NULL, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-11-18\', NULL, \'virtual\', \'3\', NULL, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (:nombre:, :tipo:, :lugar:, :fecha_cursada:, :institucion:, :modalidad:, :duracion_horas:, :evidencia:, :id_usuario:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-19 15:46:09 --> mysqli_sql_exception: Column 'evidencia' cannot be null in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\itson\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\itson\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\itson\app\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-19 15:46:09 --> Column 'evidencia' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (:nombre:, :tipo:, :lugar:, :fecha_cursada:, :institucion:, :modalidad:, :duracion_horas:, :evidencia:, :id_usuario:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-19 15:46:35 --> mysqli_sql_exception: Column 'evidencia' cannot be null in C:\laragon\www\itson\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\itson\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\laragon\www\itson\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\laragon\www\itson\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\laragon\www\itson\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\laragon\www\itson\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\itson\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\itson\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\itson\app\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\itson\system\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+#9 C:\laragon\www\itson\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+#10 C:\laragon\www\itson\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\itson\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-19 15:46:35 --> Column 'evidencia' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (\'test\', \'docente\', \'test\', \'2022-12-07\', \'test\', \'virtual\', \'3\', NULL, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `capacitacion` (`nombre`, `tipo`, `lugar`, `fecha_cursada`, `institucion`, `modalidad`, `duracion_horas`, `evidencia`, `id_usuario`) VALUES (:nombre:, :tipo:, :lugar:, :fecha_cursada:, :institucion:, :modalidad:, :duracion_horas:, :evidencia:, :id_usuario:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Capacitacion.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->save()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:07:11 --> Invalid file: /productos/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/productos/edit.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/productos/edit', [], true)
+ 3 APPPATH\Controllers\Capacitacion.php(57): view('/productos/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:08:06 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:09:11 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:09:14 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:09:32 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:10:30 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:11:37 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:11:38 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:12:13 --> Undefined index: nombre
+in APPPATH\Views\Capacitacion\form_capacitacion_edit.php on line 17.
+ 1 APPPATH\Views\Capacitacion\form_capacitacion_edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\form_capacitacion_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/form_capacitacion_edit', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(57): view('/Capacitacion/form_capacitacion_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:26:23 --> Too few arguments to function App\Controllers\Capacitacion::index(), 0 passed in C:\laragon\www\itson\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Capacitacion.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:26:36 --> Too few arguments to function App\Controllers\Capacitacion::index(), 0 passed in C:\laragon\www\itson\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Capacitacion.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:26:53 --> Too few arguments to function App\Controllers\Capacitacion::index(), 0 passed in C:\laragon\www\itson\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Capacitacion.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:28:07 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(106): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(24): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('00000001')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:28:15 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(106): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(24): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('00000001')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:28:36 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(106): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(24): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:28:37 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(106): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(24): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 16:28:54 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\Capacitacion\capacitaciones.php(106): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\capacitaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/capacitaciones', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(24): view('/Capacitacion/capacitaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

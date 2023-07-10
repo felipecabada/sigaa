@@ -1,0 +1,26 @@
+CRITICAL - 2022-12-13 16:40:57 --> Undefined index: id
+in APPPATH\Controllers\Capacitacion.php on line 16.
+ 1 APPPATH\Controllers\Capacitacion.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Capacitacion.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 16:41:20 --> Undefined index: id
+in APPPATH\Controllers\Capacitacion.php on line 16.
+ 1 APPPATH\Controllers\Capacitacion.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Capacitacion.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 16:47:15 --> Undefined variable: _SESSION
+in APPPATH\Views\General.php on line 59.
+ 1 APPPATH\Views\General.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Views\\General.php', 59, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\General.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('General', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Usuario/perfil', [], true)
+ 6 APPPATH\Controllers\Usuario.php(97): view('Usuario/perfil')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuario->perfil()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,46 @@
+ERROR - 2023-06-09 20:22:35 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'isw' in C:\laragon\www\sigaav1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\sigaav1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'isw', 3306, '', 0)
+#1 C:\laragon\www\sigaav1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\sigaav1\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\sigaav1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\sigaav1\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\sigaav1\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000022293', 'matricula', Array, NULL, 'matricula')
+#6 C:\laragon\www\sigaav1\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000022293', Array, Array)
+#7 C:\laragon\www\sigaav1\app\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\sigaav1\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#9 C:\laragon\www\sigaav1\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\sigaav1\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\sigaav1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'isw' in C:\laragon\www\sigaav1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\sigaav1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\sigaav1\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\sigaav1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\sigaav1\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\sigaav1\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000022293', 'matricula', Array, NULL, 'matricula')
+#5 C:\laragon\www\sigaav1\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000022293', Array, Array)
+#6 C:\laragon\www\sigaav1\app\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\sigaav1\system\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+#8 C:\laragon\www\sigaav1\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\sigaav1\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\sigaav1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-09 20:22:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'isw'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuario`
+WHERE `matricula` = :matricula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_not_unique('00000022293', 'matricula', [...], null, 'matricula')
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('matricula', 'matricula', '00000022293', [...], [...])
+ 6 APPPATH\Controllers\Home.php(39): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->iniciarSesion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

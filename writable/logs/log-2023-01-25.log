@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-25 20:26:12 --> Array to string conversion
+in APPPATH\Views\Capacitacion\index.php on line 20.
+ 1 APPPATH\Views\Capacitacion\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Capacitacion\\index.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/index', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:27:50 --> Array to string conversion
+in APPPATH\Views\Capacitacion\index.php on line 20.
+ 1 APPPATH\Views\Capacitacion\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Capacitacion\\index.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Capacitacion\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Capacitacion/index', [], true)
+ 5 APPPATH\Controllers\Capacitacion.php(23): view('/Capacitacion/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Capacitacion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
